@@ -1,0 +1,2025 @@
+2025-02-27 19:58:28,429 - [ERROR] - Internal Server Error: /post/127/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('post_id_.html'), <traceback object at 0x00000235E340EA00>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: post_id_.html
+2025-02-27 19:58:28,435 - [ERROR] - "GET /post/127/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:08:32,900 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x000001E69B8B5F80>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:08:32,902 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:10:13,399 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x000001E69B925B40>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:10:13,399 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:11:51,453 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x0000025DC684F8C0>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:11:51,454 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:13:37,341 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x00000171DCB25440>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:13:37,343 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:15:25,010 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x000002030C41C980>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:15:25,012 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:16:21,217 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x0000023303AA55C0>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:16:21,219 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:17:11,163 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x0000028847197AC0>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:17:11,165 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:18:01,599 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x000001F861C79340>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:18:01,600 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 20:18:28,549 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('Wcreate_post.html'), <traceback object at 0x000001E48186BE00>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:18:28,551 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 22:00:41,027 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('WWWcreate_post.html'), <traceback object at 0x000001BA7EEBD9C0>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:00:41,068 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 22:03:54,725 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('WWWcreate_post.html'), <traceback object at 0x0000010E8AAF7640>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:03:54,758 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 22:06:50,923 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('WWWcreate_post.html'), <traceback object at 0x000001F15CD17C40>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:06:51,808 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 22:10:39,634 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('WWWcreate_post.html'), <traceback object at 0x0000027D21CE6000>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:10:39,645 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21B7FF80>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,663 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C46F40>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,681 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C9CF00>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,706 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21D0DA40>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,737 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C9DC40>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,775 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C53680>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,821 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C9D400>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,873 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C517C0>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:39,934 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'ValueError'>, ValueError('The ADMINS setting must be a list of 2-tuples.'), <traceback object at 0x0000027D21C71040>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\allauth\account\middleware.py", line 36, in middleware
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\deprecation.py", line 129, in __call__
+    response = response or self.get_response(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 143, in response_for_exception
+    log_response(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 248, in log_response
+    getattr(logger, level)(
+  File "C:\Python312\Lib\logging\__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 135, in emit
+    self.send_mail(subject, message, fail_silently=True, html_message=html_message)
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py", line 138, in send_mail
+    mail.mail_admins(
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\mail\__init__.py", line 125, in mail_admins
+    raise ValueError("The ADMINS setting must be a list of 2-tuples.")
+ValueError: The ADMINS setting must be a list of 2-tuples.
+2025-02-27 22:10:40,029 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 59 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2025-02-27 22:12:29,431 - [ERROR] - Internal Server Error: /post/news/create/ - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\utils\log.py - (<class 'django.template.exceptions.TemplateDoesNotExist'>, TemplateDoesNotExist('WWWcreate_post.html'), <traceback object at 0x000001F2E98C0F00>) 
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:12:29,461 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\servers\basehttp.py - None 

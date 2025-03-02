@@ -1,0 +1,325 @@
+2025-02-27 16:21:55,942 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 16:22:01,611 - [INFO] - "GET / HTTP/1.1" 200 3265 - basehttp
+2025-02-27 16:22:04,847 - [INFO] - "GET /post/search/ HTTP/1.1" 200 7115 - basehttp
+2025-02-27 16:22:05,400 - [INFO] - "GET /post/ HTTP/1.1" 200 6626 - basehttp
+2025-02-27 16:22:06,705 - [INFO] - "GET /post/news/create/ HTTP/1.1" 200 4086 - basehttp
+2025-02-27 16:22:37,463 - [INFO] - "POST /post/news/create/ HTTP/1.1" 302 0 - basehttp
+2025-02-27 16:22:37,477 - [INFO] - "GET /post/ HTTP/1.1" 200 6623 - basehttp
+2025-02-27 19:58:06,784 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 19:59:18,059 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 19:59:18,991 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:00:51,415 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:00:52,354 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:02:08,689 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:02:09,638 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:03:29,427 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\urls.py changed, reloading. - autoreload
+2025-02-27 20:03:30,377 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:04:52,591 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\urls.py changed, reloading. - autoreload
+2025-02-27 20:04:53,554 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:05:18,909 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\filters.py changed, reloading. - autoreload
+2025-02-27 20:05:19,833 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:06:00,046 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\filters.py changed, reloading. - autoreload
+2025-02-27 20:06:00,979 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:06:57,479 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 20:06:58,411 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:07:54,999 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 20:07:56,004 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:08:26,684 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 20:08:27,613 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:08:32,900 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:08:32,902 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 20:10:13,399 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:10:13,399 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 20:11:42,216 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:11:43,138 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:11:51,453 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:13:20,788 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:13:21,697 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:13:37,341 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:13:37,343 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 20:14:54,052 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:14:54,977 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:16:02,622 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:16:03,551 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:16:21,217 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:16:21,219 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 20:16:51,831 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:16:52,765 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:17:11,163 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:17:11,165 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 20:17:45,385 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:17:46,322 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:18:01,599 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Wcreate_post.html
+2025-02-27 20:18:22,748 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:18:23,670 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:19:07,647 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:19:08,623 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:58:10,174 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:58:11,122 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 20:58:47,176 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 20:59:06,633 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:03:47,144 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:05:34,758 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:05:47,748 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:06:06,806 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:07:03,557 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:07:44,417 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:10:53,771 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:10:54,686 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:11:58,970 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:12:34,512 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:17:23,734 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:17:24,682 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:19:52,433 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:22:05,250 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:23:45,748 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:23:46,734 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:24:21,688 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:24:22,578 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:25:41,775 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:25:42,666 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:26:24,417 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 21:26:25,308 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:27:30,775 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:29:58,403 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:54:04,940 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 21:54:45,576 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:00:24,887 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:00:41,027 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:00:41,068 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 22:03:46,230 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:03:54,725 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:03:54,758 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 22:06:31,467 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 22:06:32,422 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:06:45,952 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:06:50,923 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:06:51,808 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 22:07:57,281 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 22:07:58,218 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:10:27,453 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 22:10:28,383 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:12:12,218 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 22:12:13,156 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:12:21,880 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:12:29,431 - [ERROR] - Internal Server Error: /post/news/create/ - log
+Traceback (most recent call last):
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
+2025-02-27 22:12:29,461 - [ERROR] - "GET /post/news/create/ HTTP/1.1" 500 145 - basehttp
+2025-02-27 22:12:44,940 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\new_portal\views.py changed, reloading. - autoreload
+2025-02-27 22:12:45,878 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:41:39,644 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 22:41:40,617 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:41:59,510 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 22:42:00,445 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-02-27 22:42:05,347 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-28.-logging\project\project\settings.py changed, reloading. - autoreload
+2025-02-27 22:42:06,282 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-02 21:04:22,538 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-02 21:05:05,999 - [INFO] - Watching for file changes with StatReloader - autoreload
