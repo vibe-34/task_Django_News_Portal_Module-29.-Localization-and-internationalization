@@ -64,6 +64,9 @@ LOGIN_URL = '/accounts/login/'  # конкретизирует адрес стр
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+
+    'django.middleware.locale.LocaleMiddleware',  # для локализации (вставляем именно сюда, именно таков порядок
+
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -314,3 +317,8 @@ LOGGING = {
         },  # 4
     }
 }
+
+# Локализация
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale')
+]
