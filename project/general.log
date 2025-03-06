@@ -324,3 +324,7 @@ django.template.exceptions.TemplateDoesNotExist: WWWcreate_post.html
 2025-03-02 21:04:22,538 - [INFO] - Watching for file changes with StatReloader - autoreload
 2025-03-02 21:05:05,999 - [INFO] - Watching for file changes with StatReloader - autoreload
 2025-03-04 21:31:37,277 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 21:55:10,187 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 21:58:10,108 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 21:59:54,177 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 22:00:44,345 - [INFO] - Watching for file changes with StatReloader - autoreload
