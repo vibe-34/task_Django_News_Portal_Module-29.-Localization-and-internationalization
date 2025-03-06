@@ -1,7 +1,8 @@
-from django.urls import path
+from django.urls import path, include
 from .views import PostList, PostDetail, PostCreate, PostUpdate, PostDelete, subscriptions
 
 urlpatterns = [
+	path('i18n/', include('django.conf.urls.i18n')),  # подключаем встроенные эндопинты для работы с локализацией
 	path('', PostList.as_view(), name='post'),
 	path('<int:pk>/', PostDetail.as_view(), name='post_detail'),
 	path('search/', PostList.as_view(), name='post_search'),

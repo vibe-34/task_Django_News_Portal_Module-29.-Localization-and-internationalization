@@ -128,8 +128,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
+# язык, который применяется в текущий момент
 # LANGUAGE_CODE = 'en-us'
 LANGUAGE_CODE = 'ru'
+
+# доступные языки для перевода
+LANGUAGES = [
+    ('en-us', 'English'),
+    ('ru', 'Русский'),
+]
 
 TIME_ZONE = 'UTC'
 
