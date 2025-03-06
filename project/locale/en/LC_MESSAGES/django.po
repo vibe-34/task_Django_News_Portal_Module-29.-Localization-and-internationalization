@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 21:58+0300\n"
+"POT-Creation-Date: 2025-03-06 23:20+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,14 +23,98 @@ msgid "Страница авторизованного пользователя"
 msgstr "Authorized user page"
 
 #: .\accounts\templates\accounts\index.html:8
-msgid ""
-"Здесь может содержаться персональная информация для каждого пользователя"
+msgid "Здесь может содержаться персональная информация для каждого пользователя"
 msgstr "This may contain personal information for each user."
 
 #: .\accounts\templates\accounts\index.html:10
+#: .\templates\flatpages\default.html:58
 msgid "Выход"
 msgstr "Exit"
 
 #: .\accounts\templates\accounts\index.html:13
 msgid "Стать автором!"
 msgstr "Become an author!"
+
+#: .\new_portal\templates\create_post.html:6
+#: .\new_portal\templates\create_post.html:9
+msgid "Форма по добавлению публикации"
+msgstr "Form for adding a publication"
+
+#: .\new_portal\templates\post.html:17 .\new_portal\templates\search.html:17
+msgid "Всего публикаций:"
+msgstr "All publications"
+
+#: .\new_portal\templates\post.html:20
+msgid "Добавить новость"
+msgstr "Add news"
+
+#: .\new_portal\templates\post.html:20
+msgid "Добавить статью"
+msgstr "Add article"
+
+#: .\new_portal\templates\post.html:26 .\new_portal\templates\post_id.html:20
+#: .\new_portal\templates\search.html:29
+msgid "Заголовок"
+msgstr "Headline"
+
+#: .\new_portal\templates\post.html:27 .\new_portal\templates\post_id.html:21
+#: .\new_portal\templates\search.html:30
+msgid "Дата публикации"
+msgstr "All publications"
+
+#: .\new_portal\templates\post.html:28 .\new_portal\templates\post_id.html:22
+#: .\new_portal\templates\search.html:31
+msgid "Содержание"
+msgstr "Content"
+
+#: .\new_portal\templates\post.html:29
+msgid "Действие"
+msgstr "Action"
+
+#: .\new_portal\templates\post.html:37
+msgid "Читать полностью"
+msgstr "Read in full"
+
+#: .\new_portal\templates\post_delete.html:6
+msgid "Удалить публикацию"
+msgstr "All publications"
+
+#: .\new_portal\templates\post_delete.html:9
+msgid "Удаление публикации"
+msgstr "All publications"
+
+#: .\new_portal\templates\post_delete.html:13
+msgid "Удаляем"
+msgstr "We delete"
+
+#: .\new_portal\templates\post_id.html:32
+msgid "Редактировать"
+msgstr "Edit"
+
+#: .\new_portal\templates\post_id.html:36
+msgid "Удалить"
+msgstr "Delete"
+
+#: .\templates\flatpages\default.html:62
+msgid "Вы авторизованы как:"
+msgstr "You are logged in as:"
+
+#: .\templates\flatpages\default.html:64
+msgid "Регистрация"
+msgstr "Registration"
+
+#: .\templates\flatpages\default.html:65
+msgid "Вход"
+msgstr "Entrance"
+
+#: .\templates\flatpages\default.html:67
+msgid "Поиск"
+msgstr "Search"
+
+#: .\templates\flatpages\default.html:68
+msgid "Все публикации"
+msgstr "All publications"
+
+#: .\templates\flatpages\default.html:70
+msgid "Оформить подписку"
+msgstr "Subscribe now"

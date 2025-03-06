@@ -55,19 +55,19 @@
                             <li class="nav-item active">
                                 <form action="{% url 'account_logout' %}" method="post" style="display: inline;">
                                     {% csrf_token %}
-                                    <button type="submit" class="nav-link btn btn-link">Выход</button>
+                                    <button type="submit" class="nav-link btn btn-link">{% trans 'Выход' %}</button>
                                 </form>
                             </li>
                             <li class="nav-link" style="color: red">
-                                Вы авторизованы как: {{ request.user.username }}</li>
+                                {% trans 'Вы авторизованы как:' %} {{ request.user.username }}</li>
                         {% else %}
-                            <li class="nav-item active"><a class="nav-link" href="{% url 'account_signup' %}">Регистрация</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="{% url 'account_login' %}">Вход</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="{% url 'account_signup' %}">{% trans 'Регистрация' %}</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="{% url 'account_login' %}">{% trans 'Вход' %}</a></li>
                         {% endif %}
-                        <li class="nav-item active"><a class="nav-link" href="{% url 'post_search' %}">Поиск</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{% url 'post' %}">Все публикации</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="{% url 'post_search' %}">{% trans 'Поиск' %}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'post' %}">{% trans 'Все публикации' %}</a></li>
                         {% if request.user.is_authenticated %}
-                        <li class="nav-item"><a class="nav-link" style="color: green" href="{% url 'subscriptions' %}">Оформить подписку</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: green" href="{% url 'subscriptions' %}">{% trans 'Оформить подписку' %}</a></li>
                         {% endif %}
                     </ul>
                 </div>

@@ -387,3 +387,6 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'set_language' not found. 'se
 2025-03-06 23:02:45,739 - [INFO] - Watching for file changes with StatReloader - autoreload
 2025-03-06 23:03:01,435 - [INFO] - C:\Users\Andrey\Projects\task_Django_News_Portal_Module-29.-Localization and internationalization\project\project\settings.py changed, reloading. - autoreload
 2025-03-06 23:03:02,492 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 23:12:40,886 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 23:24:26,562 - [INFO] - Watching for file changes with StatReloader - autoreload
+2025-03-06 23:26:06,297 - [INFO] - Watching for file changes with StatReloader - autoreload

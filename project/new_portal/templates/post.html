@@ -3,6 +3,7 @@
 
 <!--  Подключаем собственный фильтр из new_portal/templatetags/censor_filters -->
 {% load censor_filters %}
+{% load i18n %}
 
 <!-- Название у нас будет News -->
 {% block title %}
@@ -13,19 +14,19 @@ Posts
 {% block content %}
 
 <!--Применяем фильтр length к уже ранее сформированному списку новостей, который мы передаем из views-->
-<h1>Всего публикаций: {{ post|length }}</h1>
+<h1>{% trans 'Всего публикаций:' %} {{ post|length }}</h1>
 
 {% if perms.new_portal.add_post %}  <!--Проверяем на право создания публикации-->
-<a href="{% url 'news_create' %}">Добавить новость</a>   <a href="{% url 'articles_create' %}">Добавить статью</a>
+<a href="{% url 'news_create' %}">{% trans 'Добавить новость' %}</a>   <a href="{% url 'articles_create' %}">{% trans 'Добавить статью' %}</a>
 {% endif %}
 
     {% if post %}
         <table>
             <tr>
-                <td>Заголовок</td>
-                <td>Дата публикации</td>
-                <td>Содержание</td>
-                <td>Действие</td>
+                <td>{% trans 'Заголовок' %}</td>
+                <td>{% trans 'Дата публикации' %}</td>
+                <td>{% trans 'Содержание' %}</td>
+                <td>{% trans 'Действие' %}</td>
             </tr>
 
             {% for post_ in post %}
@@ -33,7 +34,7 @@ Posts
                 <td>{{ post_.title|censor }}</td>
                 <td>{{ post_.time_in|date:'d m Y' }}</td>
                 <td>{{ post_.content|truncatechars:20|censor }}</td>
-                <td><a href="{% url 'post_detail' post_.id %}">Читать полностью</a></td>
+                <td><a href="{% url 'post_detail' post_.id %}">{% trans 'Читать полностью' %}</a></td>
             </tr>
             {% endfor %}
         </table>

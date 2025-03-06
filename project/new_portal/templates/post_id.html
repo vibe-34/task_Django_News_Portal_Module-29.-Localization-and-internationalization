@@ -3,6 +3,7 @@
 
 <!--  Подключаем собственный фильтр из new_portal/templatetags/censor_filters -->
 {% load censor_filters %}
+{% load i18n %}
 
 <!-- Название у нас будет New_id -->
 {% block title %}
@@ -16,9 +17,9 @@
 {% if post_id %}
         <table>
             <tr>
-                <td>Заголовок</td>
-                <td>Дата публикации</td>
-                <td>Содержание</td>
+                <td>{% trans 'Заголовок' %}</td>
+                <td>{% trans 'Дата публикации' %}</td>
+                <td>{% trans 'Содержание' %}</td>
             </tr>
             <tr>
                 <td>{{ post_id.title|censor }}</td>
@@ -28,11 +29,11 @@
         </table>
 <!--Проверяем право доступа для каждой ссылки отдельно-->
 {% if perms.new_portal.change_post %}
-    <a href="{% url 'post_update' post_id.id %}">Редактировать</a>
+    <a href="{% url 'post_update' post_id.id %}">{% trans 'Редактировать' %}</a>
 {% endif %}
 
 {% if perms.new_portal.delete_post %}
-    <a href="{% url 'post_delete' post_id.id %}">Удалить</a>
+    <a href="{% url 'post_delete' post_id.id %}">{% trans 'Удалить' %}</a>
 {% endif %}
 
 {% endif %}
