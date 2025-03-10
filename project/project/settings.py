@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',  # обязательно впишите его перед админом
     'django.contrib.admin',
     'django.contrib.auth',  # обрабатывает запросы по ссылке /accounts/ (поддержка авторизации)
     'django.contrib.contenttypes',
