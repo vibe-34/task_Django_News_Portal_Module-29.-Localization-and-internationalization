@@ -76,6 +76,8 @@ MIDDLEWARE = [
 
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',  # для плоских страниц
     'allauth.account.middleware.AccountMiddleware',  # Добавил промежуточное программное обеспечение учетной записи:
+
+    'new_portal.middlewares.TimezoneMiddleware',  # для обработки часовых поясов
 ]
 
 ROOT_URLCONF = 'project.urls'

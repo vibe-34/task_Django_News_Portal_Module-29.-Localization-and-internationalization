@@ -8,6 +8,9 @@ from django.shortcuts import render
 from .forms import PostForm
 from .models import Post, Author, Category, Subscription
 from .filters import PostFilter
+from django.utils import timezone
+from django.shortcuts import redirect
+import pytz                                               # импортируем стандартный модуль для работы с часовыми поясами
 
 
 class PostList(ListView):
@@ -27,7 +30,14 @@ class PostList(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['filterset'] = self.filterset                # Добавляем в контекст объект фильтрации.
+        context['current_time'] = timezone.localtime(timezone.now())
+        context['timezones'] = pytz.common_timezones  # добавляем в контекст все доступные часовые пояса
         return context
+
+    # по post запросу добавляем в сессию часовой пояс, который и будет обрабатываться написанным нами ранее middleware
+    def post(self, request):
+        request.session['django_timezone'] = request.POST['timezone']
+        return redirect('post')
 
     def get_template_names(self):
         if self.request.path == '/post/search/':

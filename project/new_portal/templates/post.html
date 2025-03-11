@@ -4,6 +4,7 @@
 <!--  Подключаем собственный фильтр из new_portal/templatetags/censor_filters -->
 {% load censor_filters %}
 {% load i18n %}
+{% load tz %} <!-- не забываем загрузить тег для работы с часовыми поясами -->
 
 <!-- Название у нас будет News -->
 {% block title %}
@@ -12,6 +13,23 @@ Posts
 
 <!-- В контенте на странице мы выводим сам товар, идентификатор которого был передан в url -->
 {% block content %}
+
+<div class="features">
+
+        {% get_current_timezone as TIME_ZONE %}
+        <form action="" method="POST">
+            {% csrf_token %}
+            <label for="timezone">{% trans "Часовой пояс" %}:</label>
+            <select name="timezone">
+                {% for tz in timezones %}
+                <option value="{{ tz }}"{% if tz == TIME_ZONE %} selected{% endif %}>{{ tz }}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value='{% trans "Найти" %}'>
+        </form>
+
+        {{ TIME_ZONE }}
+        {{ current_time|timezone:TIME_ZONE }} <!-- Отображаем время в выбранном часовом поясе  -->
 
 <!--Применяем фильтр length к уже ранее сформированному списку новостей, который мы передаем из views-->
 <h1>{% trans 'Всего публикаций:' %} {{ post|length }}</h1>
